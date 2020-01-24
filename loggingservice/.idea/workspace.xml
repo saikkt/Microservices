@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ad71974-44c2-4aff-87a6-c721c46f2345" name="Default Changelist" comment="" />
+    <list default="true" id="1ad71974-44c2-4aff-87a6-c721c46f2345" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise1/src/main/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise1/src/main/java/PersonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/northwind/framework/RestTemplateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/northwind/loggingservice/providers/LogLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/northwind/loggingservice/providers/LoggingEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/northwind/loggingservice/providers/LoggingProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/northwind/loggingservice/providers/LoggingProviderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/northwind/loggingservice/providers/SplunkLoggingProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/northwind/splunk/SplunkClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/northwind/splunk/SplunkClientFailureMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/northwind/splunk/SplunkClientMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/northwind/splunk/When_using_the_SplunkLoggingProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/northwind/loggingservice/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/northwind/loggingservice/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/northwind/splunk/SplunkClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/northwind/splunk/SplunkClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/northwind/splunk/SplunkRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/northwind/splunk/SplunkRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/northwind/splunk/SplunkResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/northwind/splunk/SplunkResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/northwind/splunk/When_sending_to_splunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/northwind/splunk/When_sending_to_splunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/northwind/loggingservice/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/northwind/loggingservice/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/northwind/splunk/SplunkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/northwind/splunk/SplunkClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/northwind/splunk/SplunkRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/northwind/splunk/SplunkRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/northwind/splunk/SplunkResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/northwind/splunk/SplunkResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/northwind/splunk/When_sending_to_splunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/northwind/splunk/When_sending_to_splunk.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +63,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Wm6KjY3iInq5XC0B1R1jGaF988" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,12 +83,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Gradle.When_using_the_SplunkLoggingProvider.given_valid_input_op_should_succeed">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.northwind.loggingservice.Application" />
       <module name="logging-service.main" />
@@ -45,6 +103,26 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="When_sending_to_splunk.an_event_is_required" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.northwind.splunk.When_sending_to_splunk.an_event_is_required&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="When_sending_to_splunk.given_a_valid_event_write_should_succeed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -66,26 +144,52 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="When_sending_to_splunk.given_a_valid_event_write_should_succeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="logging-service.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.northwind.splunk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.northwind.splunk" />
-      <option name="MAIN_CLASS_NAME" value="com.northwind.splunk.When_sending_to_splunk" />
-      <option name="METHOD_NAME" value="given_a_valid_event_write_should_succeed" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="When_using_the_SplunkLoggingProvider.error_response_should_throw_ex" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.northwind.splunk.When_using_the_SplunkLoggingProvider.error_response_should_throw_ex&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="When_using_the_SplunkLoggingProvider.given_valid_input_op_should_succeed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.northwind.splunk.When_using_the_SplunkLoggingProvider.given_valid_input_op_should_succeed&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.When_using_the_SplunkLoggingProvider.given_valid_input_op_should_succeed" />
         <item itemvalue="Gradle.When_sending_to_splunk.given_a_valid_event_write_should_succeed" />
-        <item itemvalue="JUnit.When_sending_to_splunk.given_a_valid_event_write_should_succeed" />
+        <item itemvalue="Gradle.When_using_the_SplunkLoggingProvider.error_response_should_throw_ex" />
+        <item itemvalue="Gradle.When_sending_to_splunk.an_event_is_required" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -116,30 +220,54 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="368" y="10" key="#Application" timestamp="1579750103741">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="368" y="10" key="#Application/0.0.1280.680@0.0.1280.680" timestamp="1579750103741" />
     <state x="233" y="3" key="#Project_Structure" timestamp="1579742809678">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="3" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1579742809678" />
-    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser" timestamp="1579743518527">
+    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser" timestamp="1579797507609">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1579743518527" />
-    <state width="1237" height="149" key="GridCell.Tab.0.bottom" timestamp="1579744933446">
+    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1579797507608" />
+    <state x="421" y="53" key="FileChooserDialogImpl" timestamp="1579876943546">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="149" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579744933446" />
-    <state width="1237" height="149" key="GridCell.Tab.0.center" timestamp="1579744933445">
+    <state x="421" y="53" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1579876943546" />
+    <state width="1237" height="119" key="GridCell.Tab.0.bottom" timestamp="1579830436254">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="149" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579744933445" />
-    <state width="1237" height="149" key="GridCell.Tab.0.left" timestamp="1579744933445">
+    <state width="1237" height="119" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579830436254" />
+    <state width="1237" height="119" key="GridCell.Tab.0.center" timestamp="1579830436254">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="149" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579744933445" />
-    <state width="1237" height="149" key="GridCell.Tab.0.right" timestamp="1579744933446">
+    <state width="1237" height="119" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579830436254" />
+    <state width="1237" height="119" key="GridCell.Tab.0.left" timestamp="1579830436253">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="149" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579744933446" />
+    <state width="1237" height="119" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579830436253" />
+    <state width="1237" height="119" key="GridCell.Tab.0.right" timestamp="1579830436254">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="119" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579830436254" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1579799124779">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579799124779" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1579799124778">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1579799124778" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1579799124778">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1579799124778" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1579799124779">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1579799124779" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1579743899416">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -148,9 +276,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="348" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579742371733" />
-    <state x="91" y="0" key="new project wizard" timestamp="1579747654980">
+    <state x="91" y="0" key="new project wizard" timestamp="1579876945257">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1579747654980" />
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1579876945257" />
   </component>
 </project>

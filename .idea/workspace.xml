@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27269012-6161-4f1d-8244-f21582b8cb26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingservice/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingservice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/framework/RestTemplateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/loggingservice/providers/LogLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/loggingservice/providers/LoggingEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/loggingservice/providers/LoggingProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/loggingservice/providers/LoggingProviderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/loggingservice/providers/SplunkLoggingProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/splunk/SplunkClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingservice/src/test/java/com/northwind/splunk/SplunkClientFailureMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingservice/src/test/java/com/northwind/splunk/SplunkClientMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggingservice/src/test/java/com/northwind/splunk/When_using_the_SplunkLoggingProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/6.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/6.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/build/classes/java/main/com/northwind/loggingservice/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/build/classes/java/main/com/northwind/loggingservice/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/build/classes/java/main/com/northwind/splunk/SplunkClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/build/classes/java/main/com/northwind/splunk/SplunkClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/build/classes/java/main/com/northwind/splunk/SplunkRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/build/classes/java/main/com/northwind/splunk/SplunkRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/build/classes/java/main/com/northwind/splunk/SplunkResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/build/classes/java/main/com/northwind/splunk/SplunkResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/build/classes/java/test/com/northwind/splunk/When_sending_to_splunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/build/classes/java/test/com/northwind/splunk/When_sending_to_splunk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/loggingservice/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/loggingservice/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/splunk/SplunkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/splunk/SplunkClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/splunk/SplunkRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/splunk/SplunkRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/splunk/SplunkResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/src/main/java/com/northwind/splunk/SplunkResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingservice/src/test/java/com/northwind/splunk/When_sending_to_splunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/loggingservice/src/test/java/com/northwind/splunk/When_sending_to_splunk.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WqUsU3y8Rouaorb8hXCH8kYIZv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27269012-6161-4f1d-8244-f21582b8cb26" name="Default Changelist" comment="" />
+      <created>1579876825040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579876825040</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

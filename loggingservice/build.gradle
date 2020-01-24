@@ -2,13 +2,13 @@ plugins {
     id 'application'
 }
 
-group 'org.example'
+group 'com.northwind'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
-application{
-    mainClassName = 'com.northwind.loggingservice.Application'
+application {
+    mainClassName='com.northwind.loggingservice.Application'
 }
 
 repositories {
@@ -16,8 +16,11 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.2'
+    testImplementation('org.junit.jupiter:junit-jupiter:5.5.2')
+    implementation 'org.springframework:spring-web:5.2.3.RELEASE'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.10.1'
 }
-test{
+
+test {
     useJUnitPlatform()
 }
