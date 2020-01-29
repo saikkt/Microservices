@@ -1,7 +1,6 @@
 package com.northwind.loggingservice.providers;
 
-public enum LogLevel
-{
+public enum LogLevel {
     TRACE,
     DEBUG,
     INFO,

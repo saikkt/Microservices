@@ -2,8 +2,18 @@ package com.northwind.loggingservice.providers;
 
 import java.util.Date;
 
-public class LoggingEvent
+public class LoggingEvent {
+/*
 {
+  "timestamp" : "2020-01-22 08:24:34.975",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "test",
+  "message" : "This is a test",
+  "context" : "default"
+}
+*/
+
     private Date timestamp;
     private LogLevel level;
     private String threadName;

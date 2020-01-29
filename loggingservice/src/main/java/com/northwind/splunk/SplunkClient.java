@@ -1,6 +1,10 @@
 package com.northwind.splunk;
 
+import java.util.List;
+
 public interface SplunkClient {
 
-    public SplunkResponse send(SplunkRequest request);
+    SplunkResponse send(SplunkRequest request);
+    SplunkResponse send(List<SplunkRequest> request);
+
 }

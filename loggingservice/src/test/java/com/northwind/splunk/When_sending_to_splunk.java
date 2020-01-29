@@ -8,9 +8,10 @@ public class When_sending_to_splunk {
     @Test
     public void given_a_valid_event_write_should_succeed() {
 
+        //SplunkClient client = new SplunkClientImpl(new SplunkConfig());
         SplunkClient client = new SplunkClientMock();
 
-        SplunkRequest request = new SplunkRequest("test");
+        SplunkRequest request = new SplunkRequest("jpenniman");
 
         SplunkResponse response = client.send(request);
 
@@ -18,8 +19,10 @@ public class When_sending_to_splunk {
     }
 
     @Test
-    public void an_event_is_required()
-    {
-        Assertions.assertThrows(IllegalArgumentException.class,()->{new SplunkRequest(null);});
+    public void an_event_is_required() {
+
+        Assertions.assertThrows(IllegalArgumentException.class, ()->{
+            new SplunkRequest(null);
+        });
     }
 }

@@ -79,7 +79,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\logging-service-1.0-SNAPSHOT.jar
+set CLASSPATH=%APP_HOME%\lib\logging-service-1.0-SNAPSHOT.jar;%APP_HOME%\lib\spring-web-5.2.3.RELEASE.jar;%APP_HOME%\lib\jackson-databind-2.10.1.jar;%APP_HOME%\lib\httpclient-4.5.1.jar;%APP_HOME%\lib\amqp-client-5.8.0.jar;%APP_HOME%\lib\rxjava-2.2.17.jar;%APP_HOME%\lib\logback-classic-1.2.3.jar;%APP_HOME%\lib\slf4j-api-1.7.29.jar;%APP_HOME%\lib\spring-beans-5.2.3.RELEASE.jar;%APP_HOME%\lib\spring-core-5.2.3.RELEASE.jar;%APP_HOME%\lib\jackson-annotations-2.10.1.jar;%APP_HOME%\lib\jackson-core-2.10.1.jar;%APP_HOME%\lib\httpcore-4.4.3.jar;%APP_HOME%\lib\commons-logging-1.2.jar;%APP_HOME%\lib\commons-codec-1.9.jar;%APP_HOME%\lib\reactive-streams-1.0.3.jar;%APP_HOME%\lib\logback-core-1.2.3.jar;%APP_HOME%\lib\spring-jcl-5.2.3.RELEASE.jar
 
 @rem Execute logging-service
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %LOGGING_SERVICE_OPTS%  -classpath "%CLASSPATH%" com.northwind.loggingservice.Application %CMD_LINE_ARGS%

@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 @JsonSerialize
 public class SplunkRequest {
+
     @JsonProperty
     private Object event;
 
