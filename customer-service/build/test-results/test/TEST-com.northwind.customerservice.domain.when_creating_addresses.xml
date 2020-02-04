@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.northwind.customerservice.domain.when_creating_addresses" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-01-30T15:05:18" hostname="WTLSPOTHULAPAL" time="0.181">
+  <properties/>
+  <testcase name="given_a_valid_address_and_postal_code_op_should_succeed()" classname="com.northwind.customerservice.domain.when_creating_addresses" time="0.037"/>
+  <testcase name="given_invalid_address_op_should_fail(String)[1]" classname="com.northwind.customerservice.domain.when_creating_addresses" time="0.053"/>
+  <testcase name="given_invalid_address_op_should_fail(String)[2]" classname="com.northwind.customerservice.domain.when_creating_addresses" time="0.002"/>
+  <testcase name="given_invalid_address_op_should_fail(String)[3]" classname="com.northwind.customerservice.domain.when_creating_addresses" time="0.003"/>
+  <testcase name="given_invalid_address_op_should_fail(String)[4]" classname="com.northwind.customerservice.domain.when_creating_addresses" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

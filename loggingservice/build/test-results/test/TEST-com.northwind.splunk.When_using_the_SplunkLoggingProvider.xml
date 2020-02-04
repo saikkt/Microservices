@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.northwind.splunk.When_using_the_SplunkLoggingProvider" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-01-29T14:37:18" hostname="WTLSPOTHULAPAL" time="0.023">
+  <properties/>
+  <testcase name="exception_should_throw_ex()" classname="com.northwind.splunk.When_using_the_SplunkLoggingProvider" time="0.014"/>
+  <testcase name="error_response_should_throw_ex()" classname="com.northwind.splunk.When_using_the_SplunkLoggingProvider" time="0.003"/>
+  <testcase name="given_valid_input_op_should_succeed()" classname="com.northwind.splunk.When_using_the_SplunkLoggingProvider" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
