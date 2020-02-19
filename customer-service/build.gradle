@@ -33,6 +33,9 @@ dependencies {
     // Metrics
     implementation 'io.micrometer:micrometer-registry-statsd:1.1.5'
 
+    //Swagger
+   // implementation 'io.springfox:springfox-swagger'
+
     testImplementation 'org.junit.jupiter:junit-jupiter:5.5.2'
 }
 

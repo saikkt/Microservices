@@ -1,16 +1,17 @@
 package com.northwind.customerservice;
 
+import com.northwind.customerservice.adapter.OrderClient;
+import com.northwind.customerservice.adapter.OrderClientImpl;
+import com.northwind.customerservice.adapter.OrderConfig;
 import com.northwind.customerservice.infrastructure.LoggerFactory;
 import com.northwind.customerservice.infrastructure.LoggerFactoryImpl;
 import com.northwind.customerservice.infrastructure.TraceContext;
 import com.northwind.customerservice.repositories.CustomerRepository;
 import com.northwind.customerservice.repositories.impl.AddressRowMapper;
 import com.northwind.customerservice.repositories.impl.CustomerRowMapper;
-import com.northwind.customerservice.repositories.impl.InMemoryCustomerRepository;
 import com.northwind.customerservice.repositories.impl.MySqlCustomerRepository;
 import com.northwind.customerservice.services.CustomerService;
 import io.micrometer.core.instrument.Clock;
-import io.micrometer.core.instrument.Meter;
 import io.micrometer.core.instrument.MeterRegistry;
 import io.micrometer.core.instrument.binder.jvm.ClassLoaderMetrics;
 import io.micrometer.core.instrument.binder.jvm.JvmGcMetrics;
@@ -18,38 +19,65 @@ import io.micrometer.core.instrument.binder.jvm.JvmMemoryMetrics;
 import io.micrometer.core.instrument.binder.jvm.JvmThreadMetrics;
 import io.micrometer.core.instrument.binder.system.ProcessorMetrics;
 import io.micrometer.statsd.StatsdConfig;
-import io.micrometer.statsd.StatsdFlavor;
 import io.micrometer.statsd.StatsdMeterRegistry;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.web.client.RestTemplate;
 import org.springframework.web.context.annotation.RequestScope;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import javax.sql.DataSource;
-import java.time.Duration;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
 
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = {"com.northwind.customerservice"})
 public class AppConfig {
-
+    private Properties properties = new Properties();
+    public AppConfig(){
+        InputStream appPropsFile = AppConfig.class.getClassLoader()
+                .getResourceAsStream("application.properties");
+        try {
+            properties.load(appPropsFile);
+            appPropsFile.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     @Bean
     public DataSource datasource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/customers-db");
+        dataSource.setUrl(properties.getProperty("db.connectionString"));
         dataSource.setUsername("customers-user");
         dataSource.setPassword("password");
 
         return dataSource;
     }
     //DI Configuration goes here.
+
+    @Bean
+    public OrderConfig orderConfig(){
+        OrderConfig orderConfig = new OrderConfig();
+        orderConfig.setURL(properties.getProperty("order-service"));
+        return orderConfig;
+    }
     @Bean
     public CustomerService customerService(CustomerRepository customerRepository) {
         return new CustomerService(customerRepository);
+    }
+
+    @Bean
+    public RestTemplate restTemplate(){
+        return new RestTemplate();
+    }
+    @Bean
+    public OrderClient orderClient(RestTemplate restTemplate, OrderConfig orderConfig){
+        return new OrderClientImpl(restTemplate,orderConfig);
     }
 
     @Bean
@@ -87,32 +115,14 @@ public class AppConfig {
         StatsdConfig statsdConfig = new StatsdConfig() {
             @Override
             public String get(String key) {
-                return null;
+                return properties.getProperty(key);
             }
 
-            @Override
-            public StatsdFlavor flavor() {
-                return StatsdFlavor.DATADOG;
-            }
 
-            @Override
-            public String host() {
-                return "localhost";
-            }
 
             @Override
             public String prefix() {
-                return "com.northwind.customerservice";
-            }
-
-            @Override
-            public Duration step() {
-                return Duration.ofSeconds(1);
-            }
-
-            @Override
-            public boolean enabled() {
-                return true;
+                return "metrics";
             }
         };
 

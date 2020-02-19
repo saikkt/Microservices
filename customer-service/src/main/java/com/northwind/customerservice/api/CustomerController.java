@@ -1,5 +1,7 @@
 package com.northwind.customerservice.api;
 
+import com.northwind.customerservice.adapter.OrderClient;
+import com.northwind.customerservice.adapter.OrderModel;
 import com.northwind.customerservice.domain.Customer;
 import com.northwind.customerservice.services.CustomerService;
 import org.springframework.http.HttpStatus;
@@ -17,8 +19,12 @@ public class CustomerController {
 
     private CustomerService service;
 
-    public CustomerController(CustomerService service) {
+    private OrderClient orderClient;
+
+    public CustomerController(CustomerService service, OrderClient orderClient)
+    {
         this.service = service;
+        this.orderClient = orderClient;
     }
 
     // Specifiying required = false and using Optional<T> allows us to use
@@ -48,6 +54,15 @@ public class CustomerController {
         return new ResponseEntity<>(CustomerMapper.toModel(customer), HttpStatus.OK);
     }
 
+    @GetMapping("/orderhistory/{customerNo}")
+    public ResponseEntity<List<OrderModel>> getOrders(@PathVariable String customerNo){
+        List<OrderModel> orderModels = orderClient.getCustomerOrders(customerNo);
+        if(orderModels.isEmpty()){
+            return ResponseEntity.noContent().build();
+        }
+
+        return ResponseEntity.ok(orderModels);
+    }
     @PostMapping
     public ResponseEntity<CustomerModel> create(@RequestBody CustomerModel model) {
         Customer customer = CustomerMapper.toEntity(model);
@@ -84,7 +99,7 @@ public class CustomerController {
         service.delete(existingCustomer);
     }
 
-    // Specifying expected query parameters tells MVC to map to this action when the parameter is present
+   //  Specifying expected query parameters tells MVC to map to this action when the parameter is present
     @GetMapping(params = "companyName")
     public ResponseEntity<List<CustomerModel>> findByCustomerName(@RequestParam String companyName) {
         return ResponseEntity
